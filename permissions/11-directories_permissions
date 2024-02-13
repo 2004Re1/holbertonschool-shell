@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod a+rwx holbertonschool_shell
+find . -type d -exec chmod ugo=+x {} \
