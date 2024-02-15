@@ -1,2 +1,2 @@
 #!/bin/bash
-while re
+awk '{if(NR%2!=0)print}' 
