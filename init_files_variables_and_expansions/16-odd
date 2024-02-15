@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%x\n' | cat -n $1 | grep "$ODDRE" | cut -b 8- > oddfile.$$ 
+paste -d, - - | cut -d, -f1
